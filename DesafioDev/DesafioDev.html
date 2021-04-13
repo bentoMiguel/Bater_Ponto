@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br" style="background-image: url(img_fundo.png); background-size: cover; min-height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento Miguel Alves Martins</title>
+    <link rel="stylesheet" href="DesafioDev.css">
+    <script type="text/Javascript" src="DesafioDev.js"></script>
+</head>
+
+<body>
+
+    <header id="header">
+        <img id="imgLogo" src="logoAhgora.png">        
+        <h1>Seja bem vindo(a) de volta!</h1>
+    </header>
+    
+    <form id="formulario">
+        <h2>Bater o Ponto :</h2>
+
+        <label for="chegadaHora">
+        <fieldset id="chegada"><legend id="legend1"> Hora da Chegada </legend>
+            <input id="chegadaHora" type="text" maxlength="2" size="2" placeholder="00">
+            <p>:</p>
+            <input id="chegadaMin" type="text" maxlength="2" size="2" placeholder="00">
+        </fieldset>
+        </label>
+
+        <label for="saidaHora">
+        <fieldset id="saida"><legend id="legend2"> Hora da Saída </legend>
+            <input id="saidaHora" type="text" maxlength="2" size="2" placeholder="00">
+            <p>:</p>
+            <input id="saidaMin" type="text" maxlength="2" size="2" placeholder="00">
+        </fieldset>
+        </label>
+    </form>    
+
+    <div>
+        <button id="botao" onclick="horasTrabalhadas();">Calcular Tempo</button>
+        
+        <fieldset id="resultado"><legend id="legend3">Tempo Trabalhado</legend>
+            <p id="total"></p>
+        </fieldset>
+    </div>
+
+</body>
+</html>

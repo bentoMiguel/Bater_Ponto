@@ -1,0 +1,115 @@
+body{
+    margin-inline: 3%;
+}
+
+header{
+    display: flex;
+    margin-inline: 0%;
+    margin-bottom: 3%;
+    background-image: url(img_titulo.png);
+}
+
+img{
+    margin-left: 8%;
+    width: 8%;
+    height: 90%;
+}
+
+h1 {
+    margin: auto;
+    margin-left: 15%;
+    font-size: 260%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+}
+
+form{
+    display: flow-root;
+    margin: auto;
+    width: 45%;
+    
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+}
+
+h2{
+    margin-top: 3%;
+    margin-inline: 10%;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+fieldset{
+    display: flex;
+    padding: 0%;
+    margin-block: 3%;
+    margin-inline: 10%;
+}
+
+legend{
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500;
+}
+legend#legend2{
+    margin-inline-start: auto;
+}
+
+input{
+    margin: auto;
+    
+    height: 70px;
+    
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+    border-style: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+input#chegadaHora, input#saidaHora{
+    margin-right: 1%;
+}
+input#chegadaMin, input#saidaMin{
+    margin-left: 5%;
+}
+
+p{
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+div{
+    display: flow-root;
+    margin: auto;
+    width: 45%;
+    height: 150%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.95)
+}
+
+button{
+    inline-size: 80%;
+    margin-inline: 10%;
+    border-style: groove;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(190, 190, 190);
+    background-image: url(img_titulo.png);
+}
+
+p#total{
+    margin-inline: 10%;
+    margin-block: 4%;
+    padding: 0%;
+    width: 100%;
+
+    font-size: 250%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
